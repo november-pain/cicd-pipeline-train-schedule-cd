@@ -54,7 +54,7 @@ pipeline {
                                 configname: 'production',
                                 sshCredentials: [
                                     username: "$USERNAME",
-                                    encryptedPassphrase: "$USRPASS"
+                                    encryptedPassphrase: "$USERPASS"
                                 ],
                                 transfers: [
                                     sshTransfer(
